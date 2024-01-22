@@ -401,3 +401,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // for(let i=1;i<=10;i++){
 //   console.log("hi",i)
 // }while(i<10)
+// let sum:number=0
+// for(let i=1;i<=1000;i++){
+//     if(i % 2 == 0){
+//       sum=sum+i
+//     }
+//   }
+//   console.log("sum",sum)
+//
+let sum = 0;
+let list = [];
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+        sum = sum + i;
+        list.push(i);
+    }
+}
+console.log("sum", sum, list);
